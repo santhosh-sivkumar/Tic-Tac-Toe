@@ -100,10 +100,7 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   color: var(--white);
-  transition:
-    margin-top 0.3s ease,
-    margin-left 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: margin-top 0.3s ease, margin-left 0.3s ease, box-shadow 0.3s ease;
   background: var(--light-blue);
 }
 .game-section {
@@ -164,7 +161,6 @@ h1 {
   width: 100%;
   position: relative;
   object-fit: contain;
-  min-width: 20rem;
   margin: 0 auto;
 }
 
@@ -291,5 +287,43 @@ h1 {
   .game {
     grid-template-columns: 1fr;
     margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .square {
+    height: 7rem;
+    width: 7rem;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  .square {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+@media screen and (max-width: 382px) {
+  .square {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+@media screen and (max-width: 334px) {
+  .square {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+@media screen and (max-width: 286px) {
+  .square {
+    height: 4rem;
+    width: 4rem;
+  }
+}
+@media screen and (max-width: 238px) {
+  .square {
+    height: 3rem;
+    width: 3rem;
   }
 }
