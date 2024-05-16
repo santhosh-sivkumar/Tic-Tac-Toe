@@ -173,7 +173,7 @@ h1 {
 }
 
 .player-o {
-  margin-left: 22rem;
+  margin-left: 16rem;
 }
 
 .player-x,
@@ -191,10 +191,9 @@ h1 {
   border-radius: 11px;
   width: max-content;
   box-shadow: 20px 20px var(--dark-blue);
-  font-size: 0.6vw;
+  font-size: 1.5vw;
   background-color: var(--light-grey);
   font-family: var(--speech-font);
-  width: 11rem;
 }
 
 .player-x:after,
