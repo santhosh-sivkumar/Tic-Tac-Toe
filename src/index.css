@@ -111,7 +111,7 @@ h1 {
 }
 .restart {
   background-color: transparent;
-  padding: 0.5rem 4rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   border: 1px solid var(--dark-purple);
   background-color: var(--dark-purple);
@@ -170,10 +170,12 @@ h1 {
 
 .player-x {
   margin-left: 3rem;
+  margin-top: -3rem;
 }
 
 .player-o {
   margin-left: 11rem;
+  margin-top: -2rem;
 }
 
 .player-x,
