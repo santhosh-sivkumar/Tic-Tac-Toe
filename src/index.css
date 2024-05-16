@@ -127,7 +127,7 @@ h1 {
 
 .square {
   background: var(--white);
-  border: 10px solid var(--dark-purple);
+  border: 6px solid var(--dark-purple);
   cursor: pointer;
   float: left;
   font-size: 6vw;
@@ -173,7 +173,7 @@ h1 {
 }
 
 .player-o {
-  margin-left: 16rem;
+  margin-left: 11rem;
 }
 
 .player-x,
@@ -191,7 +191,7 @@ h1 {
   border-radius: 11px;
   width: max-content;
   box-shadow: 20px 20px var(--dark-blue);
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   background-color: var(--light-grey);
   font-family: var(--speech-font);
 }
