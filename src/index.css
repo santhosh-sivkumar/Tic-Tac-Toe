@@ -174,7 +174,7 @@ h1 {
 }
 
 .player-o {
-  margin-left: 11rem;
+  margin-left: 17rem;
   margin-top: 0;
 }
 
@@ -288,6 +288,9 @@ h1 {
   .game {
     grid-template-columns: 1fr;
     margin-bottom: 3rem;
+  }
+  .player-o {
+    margin-left: 11rem;
   }
 }
 
